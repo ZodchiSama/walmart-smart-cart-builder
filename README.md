@@ -40,4 +40,4 @@ Sizes like `18 ct` or `12 pack` are read as part of the product, not as a quanti
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE). This is an unofficial tool and is not affiliated with or endorsed by Walmart.

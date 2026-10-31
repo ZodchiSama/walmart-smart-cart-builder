@@ -1,15 +1,13 @@
 // ==UserScript==
 // @name         Walmart Smart Cart Builder
 // @namespace    https://github.com/ZodchiSama
-// @version      1.2.0
-// @description  Paste a shopping list, review the best match for each line (price, unit price, rating, rollbacks and sales, store brand), then add everything to your cart automatically. Fixes misspellings and learns your picks.
+// @version      1.2.1
+// @description  Paste a shopping list, review the best match for each line (price, unit price, rating, rollbacks and sales, store brand), then add everything to your cart automatically. Fixes misspellings and learns your picks. Unofficial; not affiliated with Walmart.
 // @author       Zodchi
 // @license      MIT
 // @homepageURL  https://github.com/ZodchiSama/walmart-smart-cart-builder
 // @supportURL   https://github.com/ZodchiSama/walmart-smart-cart-builder/issues
-// @downloadURL  https://raw.githubusercontent.com/ZodchiSama/walmart-smart-cart-builder/main/walmart-smart-cart-builder.user.js
-// @updateURL    https://raw.githubusercontent.com/ZodchiSama/walmart-smart-cart-builder/main/walmart-smart-cart-builder.user.js
-// @icon         https://www.walmart.com/favicon.ico
+// @icon         data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%230071dc' d='M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM1 2v2h2l3.6 7.6L5.2 14A2 2 0 0 0 7 17h12v-2H7.4l1.1-2h7.4a2 2 0 0 0 1.8-1l3.6-6.5A1 1 0 0 0 20.4 4H5.2l-.9-2z'/%3E%3C/svg%3E
 // @match        https://www.walmart.com/*
 // @grant        GM_getValue
 // @grant        GM_setValue
